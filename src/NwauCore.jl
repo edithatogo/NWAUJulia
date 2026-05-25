@@ -1,4 +1,4 @@
-module NWAU
+module NwauCore
 
 export calculate, calculate_acute, calculate_ed, calculate_non_admitted
 
