@@ -1,8 +1,8 @@
 using Test
-using NWAUJulia
+using NWAU
 
 @testset "command assembly" begin
-    argv = NWAUJulia._build_argv(
+    argv = NWAU._build_argv(
         "acute";
         input_csv = "input.csv",
         output_csv = "output.csv",
